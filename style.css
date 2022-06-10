@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+.sec{
+    /* border: 1px solid #000; */
+    width:250px;
+    /* background-color: cadetblue; */
+    color: aliceblue;
+    margin: 100px auto;
+    box-shadow: 0 0 15px 0 #fff;
+    border-radius: 10px 0 10px 0;
+    
+}
+.mainContainer{
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+    padding:10px 20px ;
+    direction: rtl;
+    width: 84%;
+    color: #000 !important;
+    border-radius: 10px 0 0px 0;
+
+
+}
+h3{
+ 
+    padding: 3px;
+    direction: rtl;
+    width:84%;
+    padding: 0 20px;
+    margin: 3px 0;
+    height: 30px;
+    /* color: #000; */
+    line-height: 20px;
+
+}
+.mainNum{
+    display: flex;
+    /* border: solid; */
+    /* padding: 10px 0; */
+
+}
+.numbers{
+    /* border: #000 1px solid; */
+    display: grid;
+    grid-template-columns:  repeat(3,50px);
+    grid-template-rows: repeat(3,50px);
+    align-items: center;
+    /* justify-content: center; */
+    /* color: aliceblue; */
+
+}
+.numbers span{
+  
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    
+}
+.spicl{
+    /* border: #000 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(2,50px);
+    grid-template-rows: repeat(3,67px);
+
+
+
+}
+.spicl span{
+
+    text-align: center;
+    line-height: 67px;
+  
+
+}  
+span:hover{
+    background-color: rgb(11, 236, 41);
+    color: #000;
+}
+.equls{
+    background-color: #03b1ff !important;
+}
+.c{
+    background-color: crimson !important;
+    border-radius: 0 0 10px 0;
+}
